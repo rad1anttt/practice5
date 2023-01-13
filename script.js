@@ -24,6 +24,6 @@ function buttonClick4() {
 function buttonClick5() {
     let p5 = document.getElementsByTagName('a');
     for (let i = 0; i < p5.length; i++){
-        p5[i].innerHTML = i+1;
+        p5[i].innerHTML = i;
     }
 }
